@@ -1,0 +1,27 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.delete{
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.7rem;
+    background-color: rgb(133, 8, 133);
+    color: rgb(255, 255, 255);
+    border: none;
+     margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.update{
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.7rem;
+    background-color: rgb(133, 8, 133);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+

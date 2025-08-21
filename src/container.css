@@ -1,0 +1,10 @@
+.Container{
+    width: 75%;
+    height: auto;
+    background: rgb(0, 0, 0);
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
