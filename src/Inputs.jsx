@@ -15,7 +15,7 @@ export default function Inputs({ mood , deletall , handlecategory,  myobjdata , 
             </div>
             <input value={myobjdata.count} type="number" id='count'placeholder='Count' onChange={handlecount}/>
              <input value={myobjdata.category} type="text" id='count'placeholder='Category' onChange={handlecategory}/>
-            <button onClick={onClick} className='add'>{mood? "update" : "add"}</button>
+            <button onClick={onClick} className='add'>{mood? "update" : "addnpm "}</button>
             <button onClick={deletall} className='add'>delete All</button>
         </div>
     )
