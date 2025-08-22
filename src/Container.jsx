@@ -106,7 +106,7 @@ useEffect(()=>{
     return(
         <>
         <div className='Container'>
-        <Inputs  data={data} deletall={deletall}  handlecategory={handlecategory} myobjdata={myobjdata} onClick={Clickme} handletitle={handletitle}  handleprice={handleprice} handletaxes={handletaxes}
+        <Inputs mood={mood} data={data} deletall={deletall}  handlecategory={handlecategory} myobjdata={myobjdata} onClick={Clickme} handletitle={handletitle}  handleprice={handleprice} handletaxes={handletaxes}
          handleads={handleads} handlediscount={handlediscount} handlecount={handlecount}  total={total}/>
          <Table handleboolandid={handleboolandid}  data={data} delet={delet} />
         </div>

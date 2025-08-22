@@ -1,7 +1,7 @@
 import './inputs.css'
 
 
-export default function Inputs({ deletall , handlecategory,  myobjdata , handletitle ,handleprice ,
+export default function Inputs({ mood , deletall , handlecategory,  myobjdata , handletitle ,handleprice ,
      handletaxes , handleads , handlediscount, handlecount , onClick , total}){
     return(
         <div className='myinpo'>
@@ -15,7 +15,7 @@ export default function Inputs({ deletall , handlecategory,  myobjdata , handlet
             </div>
             <input value={myobjdata.count} type="number" id='count'placeholder='Count' onChange={handlecount}/>
              <input value={myobjdata.category} type="text" id='count'placeholder='Category' onChange={handlecategory}/>
-            <button onClick={onClick} className='add'>add</button>
+            <button onClick={onClick} className='add'>{mood? "update" : "add"}</button>
             <button onClick={deletall} className='add'>delete All</button>
         </div>
     )
